@@ -1,0 +1,49 @@
+h1 {
+  color: yellow;
+  font-family: 'Bungee Shade', serif;
+  margin-top: 98px;
+  margin-right: 125px;
+  margin-left: 14px;
+  height: 66px;
+  width: 128px;
+  padding: 0px;
+  padding-left: -2px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    padding: 0px;
+    padding-left: 395px;
+    padding-top: 50px;
+    margin-left: -125px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    font-family: 'Bungee Shade', serif;
+    margin-top: 100px;
+    color: yellow;
+  }
+}
+
+#mobile {
+}
+
+nav {
+  margin-left: 0px;
+  padding-left: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  color: yellow;
+}
+
+@media (min-width: 768px) {
+  nav {
+    margin-left: -33px;
+    padding-left: 111px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    color: yellow;
+  }
+}
+
